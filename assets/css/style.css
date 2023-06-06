@@ -118,7 +118,7 @@ h1 {
     background-color: rgb(0, 253, 97);
     box-shadow: 0 0.4rem 1.4rem 0 rgba(0, 255, 136, 0.644);
     position: relative;
-    top: -1rem;
+    top: -.55rem;
 }
 
 /* Equipment Styling */
