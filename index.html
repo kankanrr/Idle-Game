@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idle Game</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/mine-icons.css">
+    <link href="https://pro.fontawesome.com/releases/v6.0.0-beta3/css/all.css" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <section class="container">
+            <h1 id="hud-title">Idle Game</h1>
+            <!-- CURRENCY: Money / Shards / Tokens | EQPT: Pick / Bag | STATS: Prestige / Rebirth | MISC: Booster / Pet / Crate -->
+            <article id="hud-container">
+                <section class="hud-bar">
+                    <div class="currency">
+                        <h2 class="hud-bar-item" id="h2Money">
+                            Money
+                        </h2>
+                        <p class="hud-main-text" id="money">
+                            0
+                        </p>
+                        <h2 class="hud-bar-item" id="h2Shards">
+                            Shards 
+                        </h2>
+                        <p class="hud-main-text" id="shards">
+                            0
+                        </p>
+                        <h2 class="hud-bar-item" id="h2Tokens">
+                            Tokens
+                        </h2>
+                        <p class="hud-main-text" id="tokens">
+                            0
+                        </p>
+                    </div>
+                </section>
+            </article>
+            <!-- Equipment -->
+            <section id="equipment-container">
+                <article class="equipment-bar">
+                    <h2 id="equip">
+                        Equipment
+                    </h2>
+                    <div class="equipment">
+                        <p><i class="icon-minecraft icon-minecraft-wooden-pickaxe" style="font-size: 2em;"></i>[Lvl 1]</p>
+                        <p><i class="icon-minecraft icon-minecraft-chest"></i>[Lvl 1]</p>
+                    </div>
+                </article>
+            </section>
+            <!-- Stats -->
+            <section id="stats-container">
+                <article class="stats-bar">
+                    <h2 id="stats">
+                        Stats
+                    </h2>
+                    <div class="progress-stats">
+                        <h2>Rebirth</h2>
+                        <h2>Prestige</h2>
+                        <h2>Timer</h2>
+                    </div>
+                    <div class="progress-stats-text">
+                        <p>0</p>
+                        <p>0</p>
+                        <p id="timer">10</p>
+                    </div>
+                </article>
+            </section>
+            <!-- Menu Buttons Sidebar -->
+            <section id="menuBtns">
+                <aside class="menu-container">
+                    <div class="menu">
+                        <button>Bag<i class="fa-solid fa-backpack"></i></button>
+                        <button>Upgrades<i class="fa-solid fa-upload"></i></button>
+                        <button>Store<i class="fa-solid fa-store"></i></button>
+                        <button>Prestige Store<i class="fa-solid fa-warehouse"></i></button>
+                        <button>Dimensions<i class="fa-regular fa-person-to-portal"></i></button>
+                    </div>
+                </aside>
+            </section>
+            <!-- Game Buttons -->
+            <section id="game-btn-container">
+                <article class="game-btns">
+                    <div class="gameButtons">
+                        <button id="sell-btn">Sell</button>
+                        <button id="hunt">Hunt<i class="fa-regular fa-paw-claws"></i></button>
+                        <button id="fish">Fish<i class="fa-regular fa-fishing-rod"></i></button>
+                    </div>
+                </article>
+            </section>
+        </section>
+    </main>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>

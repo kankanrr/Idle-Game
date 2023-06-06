@@ -1,0 +1,207 @@
+* {
+    border: solid red 1px;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+/* body + main container */
+
+body {
+    display: flex;
+    height: 99.6vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    padding: 5rem 1rem;
+    margin: 2rem;
+    height: 25rem;
+    width: 25rem;
+    background: rgb(39, 39, 39);
+    border-radius: 1em 3em;
+    color: white;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(27, 27, 27, 0.6);
+}
+
+/* Game Title */
+
+h1 {
+    text-align: center;
+    position: relative;
+    top: -100px;
+    left: -20px;
+    padding: 1rem;
+    width: 24.9rem;
+    font-size: 24px;
+    background: rgb(31, 31, 31);
+    border-radius: 1em 3em;
+}
+
+/* hud bar */
+
+#hud-container {
+    position: relative;
+    top: -84px;
+}
+
+.hud-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.currency {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+/* .currency {
+    display: flex;
+    padding: 2rem;
+    position: relative;
+    top: -14px;
+} */
+
+/* .hud-bar-item {
+    display: flex;
+    height: 2rem;
+    width: 20rem;
+    justify-content: center;
+    position: relative;
+    top: -33px;
+} */
+
+.hud-main-text {
+    font-size: 24px;
+}
+
+/* hud currencies positioning/styling */
+
+/* #h2Shards{
+    right: -16px;
+}
+
+#h2Tokens {
+    right: -30px;
+}
+
+#money {
+    padding: 10px;
+    position: relative;
+    left: -62px;
+}
+
+#shards {
+    padding: 10px;
+    position: relative;
+    left: -45px;
+}
+
+#tokens {
+    padding: 10px;
+    position: relative;
+    left: -33px;
+} */
+
+/* Sidebar Styling */
+
+#menuBtns {
+    position: relative;
+    left: 561px;
+    top: -457.7px;
+    width: 30%;
+}
+
+.menu-container {
+    display: flex;
+    padding: 1rem;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu button {
+    margin: 5px;
+}
+
+/* game buttons styling */
+
+#game-btn-container {
+    position: relative;
+    padding: 0.9rem;
+    width: 100.5%;
+    left: -20px;
+    top: -15.36rem;
+    border-radius: 0em 3em 1em;
+    background: rgb(31, 31, 31);
+}
+
+.gameButtons {
+    padding: .4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.gameButtons button {
+    padding: .7rem;
+    margin: 4px;
+    width: 50%;
+    border-radius: 20px;
+    text-decoration: none;
+    border: none;
+    background-color: rgb(0, 253, 97);
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(0, 255, 136, 0.644);
+}
+
+/* Equipment Styling */
+
+#equipment-container {
+    position: relative;
+    top: -85px;
+    padding: 1rem;
+}
+
+#equip {
+    font-size: 24px;
+    text-align: center;
+}
+
+.equipment {
+    display: flex;
+    justify-content: space-around;
+}
+
+.equipment p {
+    font-size: 25px;
+}
+
+/* Stats styling */
+
+#stats-container {
+    position: relative;
+    padding: 1rem;
+    top: -86px;
+}
+
+#stats {
+    font-size: 24px;
+    text-align: center;
+}
+
+.progress-stats {
+    display: flex;
+    justify-content: space-around;
+}
+
+.progress-stats-text {
+    display: flex;
+    justify-content: space-around;
+}
