@@ -46,67 +46,23 @@ h1 {
     top: -84px;
 }
 
-.hud-bar {
+/* hud currencies positioning/styling */
+
+.currency-text {
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
   align-items: center;
 }
 
 .currency {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
-
-/* .currency {
-    display: flex;
-    padding: 2rem;
-    position: relative;
-    top: -14px;
-} */
-
-/* .hud-bar-item {
-    display: flex;
-    height: 2rem;
-    width: 20rem;
-    justify-content: center;
-    position: relative;
-    top: -33px;
-} */
 
 .hud-main-text {
     font-size: 24px;
 }
-
-/* hud currencies positioning/styling */
-
-/* #h2Shards{
-    right: -16px;
-}
-
-#h2Tokens {
-    right: -30px;
-}
-
-#money {
-    padding: 10px;
-    position: relative;
-    left: -62px;
-}
-
-#shards {
-    padding: 10px;
-    position: relative;
-    left: -45px;
-}
-
-#tokens {
-    padding: 10px;
-    position: relative;
-    left: -33px;
-} */
 
 /* Sidebar Styling */
 
@@ -138,7 +94,7 @@ h1 {
     padding: 0.9rem;
     width: 100.5%;
     left: -20px;
-    top: -15.36rem;
+    top: -14.55rem;
     border-radius: 0em 3em 1em;
     background: rgb(31, 31, 31);
 }
@@ -180,7 +136,7 @@ h1 {
 }
 
 .equipment p {
-    font-size: 25px;
+    font-size: 24px;
 }
 
 /* Stats styling */
